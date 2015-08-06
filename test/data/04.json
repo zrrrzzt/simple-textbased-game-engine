@@ -1,0 +1,10 @@
+{
+  "name": "The cake is a lie",
+  "description": [
+    "You are to damn smart.",
+    "You win",
+    "Game over"
+  ],
+  "action": "end",
+  "alternatives": []
+}

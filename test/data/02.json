@@ -1,0 +1,10 @@
+{
+  "name": "The scream for help",
+  "description": [
+    "Your screaming awakes the monster.",
+    "You are eaten",
+    "Game over"
+  ],
+  "action": "end",
+  "alternatives": []
+}
