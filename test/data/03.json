@@ -6,6 +6,7 @@
     "You both have a nice cup of tea and a large slice of cake"
   ],
   "action": "continue",
+  "alternativesHeader": "What now?",
   "alternatives": [
     {
       "description": "Turn on the light.",

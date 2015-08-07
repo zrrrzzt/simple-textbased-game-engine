@@ -2,10 +2,10 @@
   "name": "The great beginning",
   "description": [
     "You are so alone. You are very afraid.",
-    "The room is completely dark",
-    "What to do?"
+    "The room is completely dark"
   ],
   "action": "continue",
+  "alternativesHeader": "What to do?",
   "alternatives": [
     {
       "description": "Turn on the light.",
