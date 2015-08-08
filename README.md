@@ -35,7 +35,7 @@ The startup file must be index.json the rest is up to you.
 
 ## Filedescription
 
-The storyfiles is structured like this:
+The storyfiles are structured like this:
 
 
 ```javascript
@@ -74,7 +74,7 @@ The storyfiles is structured like this:
 
 **alternatives** An array with alternatives. Each element needs **description** and **next** filepath for next story page
 
-For an end page you do not need all elements
+For an end page you do not need all elements.
 
 ```javascript
 {
