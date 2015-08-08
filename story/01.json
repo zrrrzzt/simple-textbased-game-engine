@@ -1,0 +1,10 @@
+{
+  "name": "The light is on",
+  "description": [
+    "The light awakes the monster.",
+    "You are eaten",
+    "Game over"
+  ],
+  "action": "end",
+  "alternatives": []
+}

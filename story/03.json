@@ -1,0 +1,24 @@
+{
+  "name": "The great miracle",
+  "description": [
+    "A wizard hears your prayers",
+    "He enters the room and by magic turns the monster into a delicious cake",
+    "You both have a nice cup of tea and a large slice of cake"
+  ],
+  "action": "continue",
+  "alternativesHeader": "What now?",
+  "alternatives": [
+    {
+      "description": "Turn on the light.",
+      "next": "01.json"
+    },
+    {
+      "description": "Scream for help.",
+      "next": "02.json"
+    },
+    {
+      "description": "The cake is a lie!",
+      "next": "04.json"
+    }
+  ]
+}

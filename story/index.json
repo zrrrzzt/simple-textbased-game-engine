@@ -1,0 +1,23 @@
+{
+  "name": "The great beginning",
+  "description": [
+    "You are so alone. You are very afraid.",
+    "The room is completely dark"
+  ],
+  "action": "continue",
+  "alternativesHeader": "What to do?",
+  "alternatives": [
+    {
+      "description": "Turn on the light.",
+      "next": "01.json"
+    },
+    {
+      "description": "Scream for help.",
+      "next": "02.json"
+    },
+    {
+      "description": "Pray for a miracle",
+      "next": "03.json"
+    }
+  ]
+}

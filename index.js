@@ -1,30 +1,11 @@
 'use strict'
 
-function generateQuestions (page) {
-  var questions = []
-
-  page.alternatives.forEach(function (alternative) {
-    questions.push({
-      name: alternative.description,
-      value: alternative.next
-    })
-  })
-
-  return {
-    type: 'list',
-    name: 'next',
-    message: page.alternativesHeader || ' ',
-    choices: questions
-  }
-}
-
-
 function startStory (fileName) {
 
   var inquirer = require('inquirer')
   var clear = require('cli-clear')
   var fs = require('fs')
-
+  var generateQuestions = require('./lib/generateQuestions')
 
   function loadPage (pageFile) {
     var page = JSON.parse(fs.readFileSync(pageFile))
@@ -39,7 +20,7 @@ function startStory (fileName) {
     }
 
     inquirer.prompt(questions, function (answers) {
-      loadPage(answers.next);
+      loadPage(answers.next)
     })
 
   }
