@@ -35,7 +35,7 @@
     "tap": "^10.1.0"
   },
   "dependencies": {
-    "chalk": "^2.0.1",
+    "chalk": "^2.1.0",
     "cli-clear": "^1.0.4",
     "inquirer": "^3.0.4"
   }
