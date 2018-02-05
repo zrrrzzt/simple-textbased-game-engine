@@ -37,6 +37,6 @@
   "dependencies": {
     "chalk": "^2.0.1",
     "cli-clear": "^1.0.4",
-    "inquirer": "^5.0.0"
+    "inquirer": "^5.1.0"
   }
 }
