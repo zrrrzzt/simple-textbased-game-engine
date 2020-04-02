@@ -1,7 +1,6 @@
 'use strict'
 
 function startStory (fileName) {
-
   var inquirer = require('inquirer')
   var clear = require('cli-clear')
   var fs = require('fs')
@@ -22,11 +21,9 @@ function startStory (fileName) {
     inquirer.prompt(questions, function (answers) {
       loadPage(answers.next)
     })
-
   }
 
   loadPage(fileName)
-
 }
 
 module.exports = startStory
