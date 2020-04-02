@@ -1,4 +1,5 @@
 [![js-standard-style](https://img.shields.io/badge/code%20style-standard-brightgreen.svg?style=flat)](https://github.com/feross/standard)
+
 # simple-textbased-game-engine
 
 Not excactly [Zork](https://en.wikipedia.org/wiki/Zork) but a simple way to create your own interactive stories.
@@ -90,3 +91,6 @@ For an end page you do not need all elements.
 ```
 
 Go on. Have fun :-)
+
+## License
+[MIT](LICENSE)
