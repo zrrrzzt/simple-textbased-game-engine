@@ -20,7 +20,7 @@
     "url": "http://github.com/zrrrzzt/simple-textbased-game-engine/issues"
   },
   "engines": {
-    "node": ">=0.10.0"
+    "node": ">=12.16.1"
   },
   "main": "index.js",
   "scripts": {
