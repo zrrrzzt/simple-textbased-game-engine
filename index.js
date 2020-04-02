@@ -18,7 +18,7 @@ function startStory (fileName) {
       process.exit(0)
     }
 
-    inquirer.prompt(questions, function (answers) {
+    inquirer.prompt(questions).then(answers => {
       loadPage(answers.next)
     })
   }
