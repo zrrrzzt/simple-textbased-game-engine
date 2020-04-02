@@ -1,14 +1,12 @@
-'use strict'
+const inquirer = require('inquirer')
+const clear = require('cli-clear')
+const { readFileSync } = require('fs')
+const generateQuestions = require('./lib/generateQuestions')
 
 function startStory (fileName) {
-  var inquirer = require('inquirer')
-  var clear = require('cli-clear')
-  var fs = require('fs')
-  var generateQuestions = require('./lib/generateQuestions')
-
   function loadPage (pageFile) {
-    var page = JSON.parse(fs.readFileSync(pageFile))
-    var questions = generateQuestions(page)
+    const page = JSON.parse(readFileSync(pageFile))
+    const questions = generateQuestions(page)
     clear()
     console.log(page.name)
     console.log(page.description.join('\n'))
